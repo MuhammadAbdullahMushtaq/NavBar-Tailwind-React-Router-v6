@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+   scroll-behavior: smooth;
+}
+
 /* applying global styling  */
 @layer base {
    body {
