@@ -1,7 +1,10 @@
 import {React} from 'react';
 import Navbar from '../Components/Navbar';
 import Main from '../Components/Main';
-import ScrollToTop from '../Components/ScrollToTop';
+import About from '../Components/About';
+import Skills from '../Components/Skills';
+import Projects from '../Components/Projects';
+import Contact from '../Components/Contact';
 
 const Home = () => {
 
@@ -9,7 +12,10 @@ const Home = () => {
       <div>
          <Navbar />
          <Main />
-         <ScrollToTop />
+         <About />
+         <Skills />
+         <Projects />
+         <Contact />
       </div>
    )
 }
